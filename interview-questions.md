@@ -4,38 +4,38 @@ Answer the following questions. First, without external resources. Challenge you
 
 1. What is an instance variable in Ruby? How is it different from other variables?
 
-  Your answer:
+  Your answer: Its a variable that is binded to the object it is created with
 
-  Researched answer:
+  Researched answer: Instance variables is the knowledge that is stored by a object
 
 
 
 2. What is a block in Ruby?
 
-  Your answer:
+  Your answer: A block is a grouping of code that run together
 
-  Researched answer:
+  Researched answer: Blocks of coded within a do...end statements
 
 
 
 3. Ruby has an implicit return. What does that mean?
 
-  Your answer:
+  Your answer: Not sure
 
-  Researched answer:
+  Researched answer: Ruby will return the last evalulated expression in a function.
 
 
 
 4. What is object-oriented programming? How is it different than functional programming?
 
-  Your answer:
+  Your answer: To represent everything as objects in program where objects belong to different classes and can store information. While functional programming focuses on the function and how we change a input value to a output value.
 
-  Researched answer:
+  Researched answer: Functional programming focuses on evaluation of functions while object-oriented programming revolves around making everything represented as objects that can be manipulated.
 
 
 
 5. What is the difference between a class and an object?
 
-  Your answer:
+  Your answer: Class is the blueprint and a object is a creation based on that class template storing different data.
 
-  Researched answer:
+  Researched answer: Class definees the objects properties, the object is a member or "instance" of the class storing its own unique variables.
