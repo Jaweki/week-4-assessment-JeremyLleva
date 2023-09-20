@@ -85,4 +85,21 @@ const uniqueValues = (arr1, arr2) => {
 
 	return Array.from(newSet)
 }
+
 console.log(uniqueValues(arr1, arr2))
+
+
+// Also this can be a solution to challenge question 4
+
+const uniqueArray = (arr1, arr2) => {
+	if (!Array.isArray(arr1) || !Array.isArray(arr2)) {
+		return [];
+	}
+
+	// Use Spread operator to merge the two arrays
+	const mergedArray = [...arr1, ...arr2];
+	const noDuplicateArr = Array.from(new Set(mergedArray));
+	return noDuplicateArr;
+}
+
+console.log(uniqueArray(arr1, arr2));
