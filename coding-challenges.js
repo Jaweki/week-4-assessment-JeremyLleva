@@ -49,6 +49,27 @@ var nums1 = [3, 56, 90, -8, 0, 23, 6]
 var nums2 = [109, 5, 9, -59, 8, 24]
 // Expected output: [-59, 109]
 
+const maxMinArray = (nums) => {
+	if(!Array.isArray(nums) || nums.length === 0) {
+		return [];
+	}
+
+	let min = nums[0];
+	let max = nums[0];
+
+	for (let i = 1; i < nums.length; i++) {
+		if (nums[i] < min ) {
+			min = nums[i];
+		}
+		
+		if (nums[i] > max) {
+			max = nums[i];
+		}
+	}
+
+	return [min, max];
+}
+
 
 // --------------------4) Create a function that takes in a string and returns a string with every other letter capitalized.
 
